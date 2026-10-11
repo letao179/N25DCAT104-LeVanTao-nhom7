@@ -1,5 +1,7 @@
-// NHIỆM VỤ 2: Thiết lập Route Handler
-// 1. Import handlers từ file auth.ts ở thư mục gốc
-// 2. Export các phương thức GET và POST từ handlers
+import { handlers } from "@/auth";
 
-// Code của bạn ở dưới đây:
+/**
+ * Route Handler for NextAuth.js
+ * Automatically handles OAuth flows, callbacks, session endpoints, and sign-out.
+ */
+export const { GET, POST } = handlers;

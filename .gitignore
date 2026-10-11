@@ -25,3 +25,6 @@ yarn-error.log*
 # env files (Tuyệt đối không push file này)
 .env*.local
 .env
+
+# typescript
+*.tsbuildinfo
